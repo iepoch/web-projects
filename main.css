@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0; 
+}
+
+body{
+  background: #e6e9e9;
+
+}
+
+#home-container{
+    display: grid;
+    grid-template-rows: 1em auto;
+    grid-template-columns:18.3% 50% 10%;
+    grid-template-areas: "header header header header"
+    "home home home home"
+    ". main sidebar ."
+    "footer footer footer footer";
+    grid-column-gap: 1em;
+}
+#main   {
+    grid-area: main;
+    background: #f2f2f2 ;
+    padding: 1em;
+}
+#sidebar{
+    grid-area:sidebar;
+    background:#fff;
+    font-size: .8em;
+    text-align: center;
+
+}
+header {
+
+    grid-area: header;
+    background: url(./images/FWellness.png) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title{
+font-size: 3em;
+color:  #f2f2f2;
+}
