@@ -7,7 +7,7 @@ body, html {
 }
 
 body{
-  background: #dfdfe0;
+  background: #273238;
 
 }
 
@@ -24,12 +24,12 @@ body{
 }
 #main   {
     grid-area: main;
-    background: rgb(203, 186, 240);
+    background: rgb(233, 233, 233);
     padding: 20px;
 }
 #sidebar{
     grid-area:sidebar;
-    background: rgb(203, 186, 240);
+    background: rgb(233, 233, 233);
     font-size: .8em;
     text-align: center;
 
@@ -37,8 +37,7 @@ body{
 header {
 
     grid-area: header;
-    background: #5F4B8B  center;
-
+    background: url(/images/gridarea-hero-bg.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
