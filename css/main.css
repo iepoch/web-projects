@@ -7,11 +7,12 @@ body, html {
 }
 
 body{
-  background: #273238;
-
+  background: #1b262b;
+ 
 }
 
 #home-container{
+    
     display: grid;
     grid-template-rows: 1em auto;
     /*grid-template-columns:19.3% 50% 8%;*/
@@ -21,6 +22,7 @@ body{
     ". main sidebar ."
     "footer footer footer footer";
     grid-column-gap: 1em;
+    
 }
 #main   {
     grid-area: main;
@@ -37,7 +39,8 @@ body{
 header {
 
     grid-area: header;
-    background: url(/images/gridarea-hero-bg.jpg);
+background-image: url(/images/gridarea-hero-bg.jpg);
+opacity: .7;
     display: flex;
     flex-direction: column;
     align-items: center;
